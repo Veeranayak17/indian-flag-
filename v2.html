@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Indian Flag</title>
+<style>
+  .flag {
+    width: 600px;          /* You can change size */
+    height: 400px;         /* 3:2 ratio */
+    border: 2px solid black;
+  }
+
+  .stripe {
+    width: 100%;
+    height: 33.33%;
+  }
+
+  .saffron {
+    background-color: #FF9933;
+  }
+
+  .white {
+    background-color: #FFFFFF;
+    position: relative;
+  }
+
+  .green {
+    background-color: #138808;
+  }
+
+  .chakra {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;   /* Chakra size */
+  }
+</style>
+</head>
+<body>
+
+<div class="flag">
+  <div class="stripe saffron"></div>
+
+  <div class="stripe white">
+    <!-- Ashoka Chakra (SVG with 24 spokes) -->
+    <svg class="chakra" viewBox="0 0 100 100">
+      <!-- Outer circle -->
+      <circle cx="50" cy="50" r="45" stroke="#000080" stroke-width="4" fill="none"/>
+
+      <!-- 24 spokes -->
+      <g stroke="#000080" stroke-width="3">
+        <!-- Generate 24 lines rotated by 15 degrees each -->
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(0 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(15 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(30 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(45 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(60 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(75 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(90 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(105 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(120 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(135 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(150 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(165 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(180 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(195 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(210 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(225 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(240 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(255 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(270 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(285 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(300 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(315 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(330 50 50)"/>
+        <line x1="50" y1="5" x2="50" y2="50" transform="rotate(345 50 50)"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="stripe green"></div>
+</div>
+
+</body>
+</html>
